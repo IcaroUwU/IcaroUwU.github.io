@@ -2,7 +2,7 @@ html,
 body {
     background-color: #fff;
     font-size: 14px;
-    color: #797979;
+    color: #2e2d2d;
     width: 100%;
     padding: 0;
     margin-left: 0;
@@ -92,6 +92,7 @@ section { overflow: hidden; }*/
 .bg-finence{background-color:#13A0B2;}
 .bg-mega{background-color:#E9D3D0;}
 .bg-grey{background-color: #FFD3DA;}
+.bg-grey1{background-color: #ffdaf8;}
 .bg-black{background-color: #212121;}
 .bg-white{background-color: #fff;}
 
