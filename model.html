@@ -68,6 +68,42 @@
 
     <body data-spy="scroll" data-target=".navbar-collapse">
 
+        <link rel="stylesheet" href="assets/css/whats.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        
+        
+        <link rel="stylesheet" href="assets/css/whats2.css">
+        <div class="nav-bottom">
+                   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+              rel="stylesheet">
+                    <div class="popup-whatsapp fadeIn">
+                        <div class="content-whatsapp -top"><button type="button" class="closePopup">
+                              <i class="material-icons icon-font-color">close</i>
+                            </button> 
+                          
+                           <p>  <img src="assets/images/w1.png" align="left" hspace="5" vspace="5" style="float: left;">  Hola, ¿en que puedo ayudarte? </p>
+                           
+                        </div>
+                        <div class="content-whatsapp -bottom">
+                          <input class="whats-input" id="whats-in" type="text" Placeholder="Enviar mensaje..." />
+                           
+                           
+                          
+                  
+                            <button class="send-msPopup" id="send-btn" type="button">
+                                <i class="material-icons icon-font-color--black">send</i>
+                            </button>
+        
+                        </div>
+                    </div>
+                    <button type="button" id="whats-openPopup" class="whatsapp-button">
+                        <div class="float" >
+          <i class="fa fa-whatsapp my-float"></i></div>
+                    </button>
+                    <div class="circle-anime"></div>
+                </div>
+                <script  src="assets/js/script2.js"></script>
+
 
 
         <div id="loading">
@@ -110,7 +146,7 @@
                         <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
                             <li><a href="index.html">inicio</a></li> 
                             <li><a href="model-details.html">Quiénes somos</a></li> 
-                            <li><a href="">Servicios</a>
+                            <li><a href="service.html">Servicios</a>
                             <ul class="nav">
                                 <li><a href="manicura.html">manicura</a></li> 
                                 <li><a href="esmalte.html">Esmalte Permanente</a></li> 
@@ -159,17 +195,14 @@
                             <div class="col-md-3 col-sm-6">
                                 <div class="pricing_item text-center m-top-30">
                                     <div class="pricing_head p-top-30">
-                                        <h3 class=""><sup>$</sup><span>0</span></h3>
-                                        <p class="text-uppercase m-top-20">basic packet</p>
+                                        <h3 class=""><sup>€</sup><span>25</span></h3>
+                                        <p class="text-uppercase m-top-20">Manicura</p>
                                     </div>
                                     <hr />
                                     <div class="pricing_body bg-white">
                                         <ul>
-                                            <li> 2 events</li>
-                                            <li> 3 models available</li>
-                                            <li> 5 days in use</li>
-                                            <li> 1 studio</li>
-                                            <li> Limited support</li>
+                                            <li> Manicura Completa </li>
+                                            <li> Semipermanente (Todo Incluido)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -178,17 +211,14 @@
                                 <div class="pricing_item m-top-30 text-center">
                                     <div class="pricing_top_border"></div>
                                     <div class="pricing_head p-top-30">
-                                        <h3 class=""><sup>$</sup><span>0</span></h3>
-                                        <p class="text-uppercase m-top-20">standard packet</p>
+                                        <h3 class=""><sup>€</sup><span>35</span></h3>
+                                        <p class="text-uppercase m-top-20">Pedicura</p>
                                     </div>
                                     <hr />
                                     <div class="pricing_body bg-white">
                                         <ul>
-                                            <li> 5 events</li>
-                                            <li> 8 models available</li>
-                                            <li> 10 days in use</li>
-                                            <li> 2 studio</li>
-                                            <li> Limited support</li>
+                                            <li> Pedicura Spa Completa</li>
+                                            <li> Semipermanente (Todo Incluido)</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -197,17 +227,14 @@
                             <div class="col-md-3 col-sm-6">
                                 <div class="pricing_item m-top-30 text-center">
                                     <div class="pricing_head p-top-30">
-                                        <h3 class=""><sup>$</sup><span>0</span></h3>
-                                        <p class="text-uppercase m-top-20">premium packet</p>
+                                        <h3 class=""><sup>€</sup><span>25</span></h3>
+                                        <p class="text-uppercase m-top-20">DEPILACIÓN</p>
                                     </div>
                                     <hr />
                                     <div class="pricing_body bg-white">
                                         <ul>
-                                            <li> 10 events</li>
-                                            <li> 15 models available</li>
-                                            <li> 20 days in use</li>
-                                            <li> 2 studio</li>
-                                            <li> Premium support</li>
+                                            <li> Cejas</li>
+                                            <li> Diseño Ceja</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -216,22 +243,22 @@
                             <div class="col-md-3 col-sm-6">
                                 <div class="pricing_item m-top-30 text-center">
                                     <div class="pricing_head p-top-30">
-                                        <h3 class=""><sup>$</sup><span>0</span></h3>
-                                        <p class="text-uppercase m-top-20">business packet</p>
+                                        <h3 class=""><sup>€</sup><span>30</span></h3>
+                                        <p class="text-uppercase m-top-20">TRATAMIENTOS</p>
                                     </div>
                                     <hr />
                                     <div class="pricing_body bg-white">
                                         <ul>
-                                            <li> 15 events</li>
-                                            <li> 20 models available</li>
-                                            <li> 30 days in use</li>
-                                            <li> 5 studio</li>
-                                            <li> Unlimited support</li>
+                                            <li> Lifting Pestañas</li>
+                                            <li> Tinte</li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-
+                        </div>
+                        <br><br><br><br>
+                        <div class="grid-item model-item metalloid " >
+                            <center><a href="https://wa.me/34656182918?text=" class="btn btn-default m-top-20">¡RESERVA TU CITA! <i class="fa fa-long-arrow-right"></i></a></center>
                         </div>
                     </div>
                 </div>
